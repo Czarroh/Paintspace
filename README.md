@@ -1,30 +1,16 @@
-PaintSpace
-PaintSpace is a comprehensive web-based platform designed to streamline the booking of painting workshops and rental of art equipment for aspiring artists, students, and beginners. Explore workshops, secure bookings, and rent supplies—all from one intuitive dashboard.
+# React + Vite
 
-License: MIT React Node.js MongoDB TailwindCSS
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-📄 Project Documentation
-View Documentation
+Currently, two official plugins are available:
 
-Contributors
-Name	Student ID
-Nafis Imtiaz Fuad	23101444
-Zarin Chowdhury	21101008
-Features
-Workshop Discovery: Browse upcoming painting workshops with real-time seat availability
-Seamless Booking: Secure your spot and rent essential equipment (brushes, paints, canvases)
-User Dashboard: Track "My Bookings" and manage cancellations effortlessly
-Admin Panel: Create workshops, manage inventory, and monitor all bookings
-Fully Responsive: Works perfectly on desktop, tablet, and mobile devices
-Real-time Availability: Seat counting and equipment inventory tracking
-Tech Stack
-Frontend	Backend	Database
-React.js 18+	Node.js + Express.js	MongoDB + Mongoose
-Tailwind CSS	JWT Authentication	NoSQL Document Store
-React Router	RESTful API	Schema Validation
-Deployment Plan
-Service	Platform
-Frontend	Vercel
-Backend	Render/Railway
-Database	MongoDB Atlas
-Domain	Namecheap/Google Domains
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
